@@ -1,0 +1,218 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+header {
+  background-color: #382e96;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.menu {
+  width: 400px;
+  height: 400px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  background-color: #382e96;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  width: 70%;
+  margin: 20px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.button:hover {
+  background-color: #290f5a;
+}
+
+main {
+  padding: 20px 0;
+}
+
+/* Form styles */
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+form input {
+  /* width: 100%; */
+  padding: 8px;
+  /* margin-bottom: 16px; */
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+form input[type="submit"] {
+  background-color: #382e96;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  width: 70%;
+  margin: 20px auto;
+  border-radius: 8px;
+}
+
+form input[type="submit"]:hover {
+  background-color: #290f5a;
+}
+
+/* User Article styles */
+.userArticle {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.userArticle h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.userArticle p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.userArticle ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.userArticle li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* User Section styles */
+.userSection {
+  margin-top: 20px;
+}
+
+.userSection form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.userSection form label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.userSection form input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.userSection form input[type="submit"] {
+  background-color: #382e96;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  width: 70%;
+  margin: 20px auto;
+  border-radius: 8px;
+}
+
+.userSection form input[type="submit"]:hover {
+  background-color: #290f5a;
+}
+
+/* Quiz Question styles */
+.currentQuestion {
+  background-color: #382e96;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.question {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.answerChoices {
+  list-style: none;
+  padding: 0;
+}
+
+
+
+.answerChoices li input {
+  margin-right: 10px;
+}
+
+/* Submit button styles for Quiz */
+input[type="submit"] {
+  background-color: #382e96;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  width: 70%;
+  margin: 20px auto;
+  border-radius: 8px;
+}
+
+input[type="submit"]:hover {
+  background-color: #290f5a;
+}
+
+.answerChoices li {
+  padding: 10px 0px;
+}
