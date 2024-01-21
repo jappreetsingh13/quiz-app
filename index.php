@@ -21,5 +21,5 @@ include "database.php";
             <a href="add.php" class="button">Add Question</a>
         </div>
     </main>
-</body>
+</body> 
 </html>
